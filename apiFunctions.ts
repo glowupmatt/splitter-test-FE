@@ -43,7 +43,7 @@ export const separateAudio = async (
 
     return await response.json();
   } catch (error) {
-    throw error instanceof Error ? error : new Error('Failed to separate audio');
+    throw error instanceof Error ? error : new Error('Failed to separate audi');
   }
 };
 
